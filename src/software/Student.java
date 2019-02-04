@@ -14,7 +14,7 @@ public class Student {
     private int studID;
     private String name;
     private String program;
-    
+    private String course;
     
     public Student(){
     studID = 1;
