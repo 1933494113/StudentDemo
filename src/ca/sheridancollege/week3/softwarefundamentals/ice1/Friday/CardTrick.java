@@ -11,7 +11,13 @@ public class CardTrick {
     {
         //object to push
         Card object = new Card();
-       
+        
+        
+        object.setSuit("mine");
+        object.setValue(1);
+       System.out.println(object.getSuit());
+       System.out.println(object.getValue());
+        
     }
     
 }
